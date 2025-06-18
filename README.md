@@ -8,8 +8,7 @@ apt update -y && apt upgrade -y --fix-missing && apt install -y xxd bzip2 wget c
 ```
 - step 2
 ```
-screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/ReNchi-X/Mei/main/setup.sh \
-&& chmod +x setup.sh && ./setup.sh
+screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/ReNchi-X/Mei/main/setup.sh && chmod +x setup.sh && ./setup.sh"
 ```
 **INFO:**
 - If you encounter a disconnection during installation, reconnect using:
